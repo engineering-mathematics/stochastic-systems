@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling>=1.27"]
+requires = ["hatchling>=1.33.0"]
 build-backend = "hatchling.build"
 
 [project]
@@ -34,12 +34,12 @@ dev = [
     "pytest>=8.3",
     "pytest-cov>=6.0",
     "pytest-benchmark>=5.0",
-    "hypothesis>=6.120",
+    "hypothesis>=6.170.15",
     "mypy>=1.13",
-    "ruff>=0.8",
+    "ruff>=0.17.5",
     "scipy>=1.12",  # reference solutions in tests only
     "scipy-stubs>=1.14",
-    "import-linter>=2.1",
+    "import-linter>=2.16",
     "pip-audit>=2.7",
     "twine>=6.0",
 ]
